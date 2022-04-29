@@ -2,14 +2,15 @@
 
 # Microverse-Portfolio
 
-Portfolio: Whole personal project (mobile version)
-In this project, I set up a "My portfolio: mobile version" repository.
+Portfolio: Whole personal project (desktop version)
+In this project, I set up a "My portfolio" repository.
 
 ## Built With
 
 - HTML & CSS
 - Flex-box
 - CSS Grid
+- Media Queries
 
 ## Getting Started
 
