@@ -39,7 +39,7 @@ body {
   color: white;
   font-weight: 500;
   font-size: 1.8rem;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .main-nav-link:hover,
@@ -59,7 +59,7 @@ body {
 
 .header-name:link,
 .header-name:visited {
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .header-name:hover,
