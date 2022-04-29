@@ -1,0 +1,417 @@
+@media (max-width: 111.6em) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 93em) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 88em) {
+  html {
+    font-size: 7px;
+  }
+
+  .main-page img {
+    margin-left: 30rem;
+  }
+}
+
+@media (max-width: 76em) {
+  html {
+    font-size: 6.8px;
+  }
+
+  .first-box-text p {
+    padding: 2rem 10rem 0 0;
+  }
+
+  .programming-boxes {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 69em) {
+  html {
+    font-size: 5.8px;
+  }
+
+  .line-top {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 5.5px;
+  }
+}
+
+@media (max-width: 56em) {
+  html {
+    font-size: 5.1px;
+  }
+}
+
+@media (max-width: 51em) {
+  html {
+    font-size: 4.8px;
+  }
+}
+
+@media (max-width: 51em) {
+  html {
+    font-size: 4.7px;
+  }
+
+  .first-box-text p {
+    padding: 2rem 5rem 2rem 0;
+  }
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 4.8px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .phone-toolbar {
+    display: inline-block;
+  }
+
+  .main-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    background: #1c1a19;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-page img {
+    margin-left: 120rem;
+    width: 40rem;
+    height: 50rem;
+  }
+
+  .social-icons {
+    order: 1;
+    flex-direction: row;
+    gap: 4rem;
+    padding-left: 20rem;
+    margin-top: -40rem;
+    margin-bottom: 20rem;
+  }
+
+  .social-icon-item {
+    color: #cfcfcf;
+    width: 3.4rem;
+    height: 10rem;
+    font-size: 5rem;
+  }
+
+  .main-text {
+    padding-left: 10rem;
+    padding-top: 25rem;
+  }
+
+  .main-text h1 {
+    font-weight: 400;
+    font-size: 10rem;
+  }
+
+  .main-text h2 {
+    font-size: 5rem;
+    padding-top: 4rem;
+  }
+
+  .main-text p {
+    font-size: 3.5rem;
+    padding-top: 4rem;
+    padding-right: 50rem;
+    line-height: 5rem;
+  }
+
+  .my-work h2 {
+    display: inline-block;
+    margin: 25rem 5rem 5rem 40rem;
+    font-size: 10rem;
+    line-height: 5.2rem;
+  }
+
+  .line-top {
+    padding-bottom: 1rem;
+    width: 122rem;
+    padding-left: 39rem;
+  }
+
+  .work-grid-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5rem 30rem;
+    gap: 4rem;
+    margin-bottom: 11rem;
+  }
+
+  .first-box img {
+    height: 65rem;
+  }
+
+  .first-box {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-box-text h3 {
+    font-size: 8rem;
+    padding-top: 4rem;
+  }
+
+  .first-box-text p {
+    font-size: 4rem;
+    line-height: 7rem;
+    padding: 5rem 0 5rem 0;
+  }
+
+  .programming-languages {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    margin: 3rem 0 3rem 0;
+  }
+
+  .pr-lang-items {
+    font-size: 3.5rem;
+    padding: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .see-button {
+    font-size: 4rem;
+    line-height: 2.4rem;
+    padding: 3rem;
+  }
+
+  .third-box,
+  .fourth-box,
+  .fifth-box {
+    height: 88rem;
+    width: 77rem;
+    margin-left: 15rem;
+  }
+
+  .see-button-full {
+    font-size: 3.8rem;
+    padding: 2.8rem 0 2.8rem;
+    margin-top: 83rem;
+  }
+
+  .fourth-box h3,
+  .fifth-box h3 {
+    font-size: 6.4rem;
+    line-height: 8.8rem;
+    margin-top: 32.6rem;
+  }
+
+  .fourth-box p,
+  .fifth-box p {
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 15rem;
+  }
+
+  .programming-boxes a {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .top-about-me {
+    flex-direction: column;
+  }
+
+  .last-bg {
+    margin-left: 120rem;
+    width: 50rem;
+  }
+
+  .text-about-me {
+    margin-left: 40rem;
+    max-width: 105rem;
+  }
+
+  .text-about-me h3 {
+    font-size: 14.4rem;
+    line-height: 16rem;
+  }
+
+  .text-about-me p {
+    font-size: 4rem;
+    line-height: 6.4rem;
+  }
+
+  .text-about-me a {
+    font-size: 3.4rem;
+    padding: 2.4rem;
+    margin-top: 10rem;
+  }
+
+  .about-me-line {
+    width: 120rem;
+    margin: 9rem 0 12rem 20rem;
+  }
+
+  .language-box {
+    grid-template-columns: 1fr;
+    margin: 0 14rem;
+  }
+
+  .language-text-heading {
+    font-size: 6.4rem;
+    line-height: 8.8rem;
+  }
+
+  .language-item {
+    font-size: 3.5rem;
+    line-height: 8rem;
+    align-items: center;
+  }
+
+  .contact-me {
+    grid-template-columns: 1fr;
+    margin: 13.5rem 13.5rem 15rem 13.5rem;
+    justify-content: space-around;
+  }
+
+  .contact-me h3 {
+    font-size: 8rem;
+    line-height: 10.4rem;
+    text-align: center;
+    margin-left: 27rem;
+    margin-right: 20rem;
+  }
+
+  .footer-form {
+    text-align: center;
+  }
+
+  #name {
+    width: 120rem;
+    padding: 2rem 2rem 2rem 3rem;
+  }
+
+  #email {
+    width: 120rem;
+    padding: 2rem 2rem 2rem 3rem;
+    margin-top: 4rem;
+  }
+
+  #textarea {
+    margin: 6rem 4rem 4rem 4rem;
+    width: 120rem;
+    height: 22.8rem;
+  }
+
+  #textarea::placeholder {
+    padding: 1rem;
+  }
+
+  .get-in-touch {
+    font-size: 3.5rem;
+    line-height: 4.8rem;
+    padding: 3rem;
+  }
+
+  .icons-last {
+    font-size: 4rem;
+    padding: 4rem 3rem;
+  }
+}
+
+@media (max-width: 45em) {
+  html {
+    font-size: 4.8px;
+  }
+
+  .main-page img {
+    margin-left: 110rem;
+    width: 40rem;
+    height: 50rem;
+  }
+
+  .last-bg {
+    margin-left: 110rem;
+    width: 50rem;
+  }
+
+  .text-about-me {
+    margin-left: 28rem;
+    max-width: 105rem;
+  }
+}
+
+@media (max-width: 41em) {
+  html {
+    font-size: 4.8px;
+  }
+
+  .main-page img {
+    margin-left: 100rem;
+  }
+
+  .last-bg {
+    margin-left: 110rem;
+    width: 50rem;
+  }
+
+  .text-about-me {
+    margin-left: 20rem;
+    max-width: 100rem;
+  }
+
+  .work-grid-box {
+    margin: 5rem;
+  }
+
+  .first-box {
+    grid-column: 1;
+    display: flex;
+    gap: 2.4rem;
+    align-content: flex-start;
+  }
+
+  .first-box img {
+    height: 44.8rem;
+  }
+
+  .first-box-text h3 {
+    line-height: 4rem;
+    text-align: start;
+  }
+
+  .first-box-text p {
+    padding: 2rem 5rem 2rem 0;
+  }
+
+  .pr-lang-items {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .third-box,
+  .fourth-box,
+  .fifth-box {
+    height: 88rem;
+    width: 77rem;
+    margin-left: 13rem;
+  }
+}
