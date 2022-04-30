@@ -161,7 +161,7 @@
 
   .fourth-box p,
   .fifth-box p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     line-height: 2.2rem;
   }
 
@@ -227,11 +227,6 @@
   .get-in-touch {
     display: inline-block;
     margin: auto;
-  }
-
-  .fourth-box p,
-  .fifth-box p {
-    font-size: 1.6rem;
   }
 }
 
