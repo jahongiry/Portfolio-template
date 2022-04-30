@@ -1,0 +1,370 @@
+@media (min-width: 768px) {
+  .phone-toolbar {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3e3c3c;
+    height: 7.2rem;
+    padding: 0;
+    width: 100%;
+    position: relative;
+  }
+
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  .header-name {
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .header-name:link,
+  .header-name:visited {
+    transition: all 0.4s;
+  }
+
+  .header-name:hover,
+  .header-name:active {
+    color: #cf711f;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.4s;
+  }
+
+  .main-nav-link:hover,
+  .main-nav-link:active {
+    color: #cf711f;
+  }
+
+  .main-page {
+    display: grid;
+    grid-template-columns: 1fr 6fr 7fr;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: #1c1a19;
+  }
+
+  .main-text {
+    order: 0;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 2rem;
+  }
+
+  .main-text h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .main-text h2 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  .main-text p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .main-text h1,
+  .main-text p,
+  .main-text h2 {
+    padding-left: 5rem;
+  }
+
+  .main-page img {
+    display: inline-block;
+    width: 95%;
+    height: 126%;
+    margin-left: 3rem;
+    margin-top: -18rem;
+    padding-top: 10rem;
+    padding-left: 3rem;
+    z-index: auto;
+  }
+
+  .wrapper-1 {
+    display: flex;
+    width: 100%;
+  }
+
+  .my-work h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: 16rem;
+    padding: 0 2rem 8rem 6rem;
+  }
+
+  .line-top {
+    display: none;
+  }
+
+  .wrapper-1 hr {
+    display: inline-block;
+    width: 40%;
+    border: none;
+    margin-top: 18.5rem;
+    border-top: 1px solid #212121;
+  }
+
+  .my-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-grid-box {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 4rem;
+    column-gap: 1rem;
+    width: 75%;
+    margin-left: -10rem;
+  }
+
+  .first-box {
+    grid-column: 1 / span 3;
+    flex-direction: row;
+  }
+
+  .programming-languages {
+    margin: 3rem 0 3rem 0;
+  }
+
+  .fourth-box p,
+  .fifth-box p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+
+  .see-button-full {
+    margin-top: 33.8rem;
+    width: 100%;
+  }
+
+  .programming-boxes {
+    padding: 0.5rem;
+    margin-bottom: 10rem;
+  }
+
+  .top-about-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 8rem;
+    align-items: center;
+  }
+
+  .last-bg {
+    width: 75%;
+    height: 100%;
+    margin-left: -6rem;
+    margin-bottom: 2rem;
+    margin-right: -19rem;
+    padding-left: 16rem;
+  }
+
+  .about-me-line {
+    width: 80%;
+    color: white;
+    margin: 13.9rem 8rem 13.6rem 8rem;
+  }
+
+  .language-box {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 4rem;
+  }
+
+  .language-item {
+    align-items: flex-start;
+  }
+
+  .contact-me {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: center;
+    margin: 12rem 8rem 0 8rem;
+    gap: 2rem;
+  }
+
+  .contact-me h3 {
+    text-align: start;
+  }
+
+  #name {
+    margin-top: 0;
+  }
+
+  .get-in-touch {
+    display: inline-block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .work-grid-box {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 8rem;
+    column-gap: 1rem;
+    width: 80%;
+  }
+}
+
+@media (min-width: 950px) {
+  .work-grid-box {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 10rem;
+    column-gap: 1rem;
+    width: 85%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .my-work h2 {
+    padding: 0 2rem 14rem 14rem;
+  }
+
+  .main-text h1 {
+    font-size: 6rem;
+    line-height: 8.2rem;
+  }
+
+  .main-text h2 {
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+  }
+
+  .main-text p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  .first-box img {
+    width: 200%;
+  }
+
+  .work-grid-box {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 14rem;
+    width: 80%;
+  }
+
+  .programming-boxes {
+    padding: 0.5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1178px) {
+  .main-page {
+    display: grid;
+    grid-template-columns: 1fr 6fr 7fr;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: #1c1a19;
+  }
+
+  .my-work h2 {
+    margin-top: 16rem;
+    padding: 0 2rem 8rem 14rem;
+  }
+
+  .wrapper-1 hr {
+    display: inline-block;
+    width: 50%;
+    border: none;
+    margin-top: 18.5rem;
+    border-top: 1px solid #212121;
+  }
+
+  .work-grid-box {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 14rem;
+  }
+
+  .first-box {
+    grid-column: 1 / span 3;
+    flex-direction: row;
+  }
+
+  .programming-languages {
+    margin: 3rem 0 3rem 0;
+  }
+
+  .first-box img {
+    width: 200%;
+  }
+
+  .first-box-text p {
+    padding-right: 20rem;
+  }
+
+  .top-about-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 14rem;
+    align-items: center;
+  }
+
+  .about-me-line {
+    width: 70%;
+    color: white;
+    margin: 13.9rem 14rem 13.6rem 14rem;
+  }
+
+  .language-box {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 8rem;
+  }
+}
+
+@media (min-width: 1423px) {
+  .work-grid-box {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1538px) {
+  .work-grid-box {
+    margin: 0 18rem;
+    column-gap: 2rem;
+    width: 63%;
+  }
+
+  .about-me-line {
+    width: 50%;
+  }
+}
