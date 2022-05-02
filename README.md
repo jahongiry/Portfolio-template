@@ -39,6 +39,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+## Live version
+
+Live version is avilable in the following link:
+https://jahongiry.github.io/Portfolio-Desktop-version/
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
