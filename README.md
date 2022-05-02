@@ -41,7 +41,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Live version
 
-Live version is avilable in the following link:
+You can check Live version on the following link:
 https://jahongiry.github.io/Portfolio-Desktop-version/
 
 ## Show your support
