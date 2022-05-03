@@ -198,8 +198,12 @@ body {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
-  color: #091e42;
   padding: 1rem;
+}
+
+.pr-lang-items a {
+  text-decoration: none;
+  color: #091e42;
 }
 
 .pr-lang-items:hover,
