@@ -31,6 +31,10 @@
     line-height: 20px;
   }
 
+  .header-name:focus-visible {
+    outline: 1px solid #c9cdff;
+  }
+
   .header-name:link,
   .header-name:visited {
     transition: all 0.4s;
@@ -38,7 +42,7 @@
 
   .header-name:hover,
   .header-name:active {
-    color: #cf711f;
+    color: #e4cbb6;
   }
 
   .main-nav-link:link,
@@ -51,9 +55,13 @@
     transition: all 0.4s;
   }
 
+  .main-nav-link:focus-visible {
+    outline: 1px solid #c9cdff;
+  }
+
   .main-nav-link:hover,
   .main-nav-link:active {
-    color: #cf711f;
+    color: #e4cbb6;
   }
 
   .main-page {

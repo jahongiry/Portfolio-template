@@ -45,6 +45,10 @@ body {
   text-decoration: none;
 }
 
+.logo-name:focus-visible {
+  outline: 1px solid #c9cdff;
+}
+
 .menu-button {
   font-size: 6rem;
   height: 1.2rem;
@@ -55,6 +59,10 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.menu-button:focus-visible {
+  outline: 1px solid #c9cdff;
 }
 
 .main-page {
@@ -116,6 +124,10 @@ body {
   width: 1.7rem;
   height: 5rem;
   font-size: 2.5rem;
+}
+
+.social-icon-item:focus-visible {
+  outline: 1px solid #c9cdff;
 }
 
 .main-page img {
@@ -218,16 +230,20 @@ body {
   font-size: 1.7rem;
   line-height: 2.4rem;
   color: rgb(255, 255, 255);
-  background: #f55800;
+  background: #893809;
   text-decoration: none;
   padding: 1.2rem;
 }
 
+.see-button:focus-visible {
+  outline: 1px solid #010433;
+}
+
 .see-button:hover,
 .see-button:active {
-  color: #f55800;
+  color: #893809;
   background-color: white;
-  border: 1px solid rgba(128, 128, 128, 0.555);
+  border: 1px solid #545454;
 }
 
 .third-box {
@@ -237,7 +253,7 @@ body {
 
 .see-button-full {
   display: inline-block;
-  background: #f55800;
+  background: #893809;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -253,7 +269,7 @@ body {
 
 .see-button-full:hover,
 .see-button-full:active {
-  background-color: #8d3c0d;
+  background-color: #893809;
 }
 
 .fourth-box {
@@ -296,15 +312,16 @@ body {
 }
 
 .programming-boxes {
-  border: 1px solid grey;
-  background: rgba(255, 255, 255, 0.24);
+  border: 1px solid #4f4e4e;
+  background: #ffffff;
   padding: 1rem;
   margin-bottom: 4rem;
 }
 
 .programming-boxes:hover,
 .programming-boxes:active {
-  background: rgba(163, 163, 163, 0.24);
+  background: #ece9e9;
+  color: rgb(255, 255, 255);
 }
 
 .programming-boxes a {
@@ -314,7 +331,7 @@ body {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 .fifth-box {
@@ -353,7 +370,7 @@ body {
   font-weight: 400;
   font-size: 7.2rem;
   line-height: 8.2rem;
-  color: #f55800;
+  color: #f1a274;
   padding-top: 12rem;
 }
 
@@ -374,18 +391,11 @@ body {
   font-weight: 700;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  color: rgb(255, 255, 255);
+  color: #773714;
   text-decoration: none;
   padding: 1.2rem;
-  background-color: #f55800;
-  margin-top: 5rem;
-}
-
-.text-about-me a:hover,
-.text-about-me a:active {
-  cursor: pointer;
-  color: #f55800;
   background-color: white;
+  margin-top: 5rem;
 }
 
 .last-bg {
@@ -496,7 +506,7 @@ body {
   color: white;
   border: none;
   padding: 1rem;
-  background: #f55800;
+  background: #893809;
   display: flex;
   margin: auto;
 }
@@ -504,9 +514,13 @@ body {
 .get-in-touch:hover,
 .get-in-touch:active {
   cursor: pointer;
-  color: #f55800;
+  color: #893809;
   background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.527);
+}
+
+.get-in-touch:focus-visible {
+  outline: 3px solid #040bd8;
 }
 
 .last-line {
