@@ -1,18 +1,18 @@
-const burger_button = document.querySelector(".menu-button");
-const responsive_menu = document.querySelector(".responsive");
-const close_icon = document.querySelector(".close-icon");
-const links = document.querySelectorAll(".main-nav-link2");
+const burgerButton = document.querySelector('.menu-button');
+const responsiveMenu = document.querySelector('.responsive');
+const closeIcon = document.querySelector('.close-icon');
+const links = document.querySelectorAll('.main-nav-link2');
 
-for (let i=0; i<links.length; i++) {
-  links[i].addEventListener('click', function (e) {
-    responsive_menu.style.display = "none";
-  }) 
+for (let i = 0; i < links.length; i += 1) {
+  links[i].addEventListener('click', () => {
+    responsiveMenu.style.display = 'none';
+  });
 }
 
-burger_button.addEventListener("click", function () {
-  responsive_menu.style.display = "flex"
+burgerButton.addEventListener('click', () => {
+  responsiveMenu.style.display = 'flex';
 });
 
-close_icon.addEventListener("click", function () {
-  responsive_menu.style.display = "none"
+closeIcon.addEventListener('click', () => {
+  responsiveMenu.style.display = 'none';
 });
