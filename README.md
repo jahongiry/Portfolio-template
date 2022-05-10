@@ -29,9 +29,10 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [https://github.com/jahongiry](https://github.com/jahongiry)
 - LinkedIn: [linkedin.com/in/jahongir-yusupov](linkedin.com/in/jahongir-yusupov)
 
-👤 Sirri Celles
 
-- GitHub: [https://github.com/SirriCelles](https://github.com/SirriCelles)
+👤 Abdelhadi Hireche
+
+- GitHub: [https://github.com/aeh1707](https://github.com/aeh1707)
 
 ## 🤝 Contributing
 
