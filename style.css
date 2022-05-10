@@ -28,7 +28,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #3C3A39;
+  background: #3c3a39;
   color: white;
   z-index: 1;
   list-style: none;
@@ -47,7 +47,7 @@ body {
 }
 
 .main-nav-link2 {
-  border-bottom: 1px solid #6F6C6B;
+  border-bottom: 1px solid #6f6c6b;
 }
 
 .close-icon {
@@ -55,7 +55,7 @@ body {
 }
 
 .close-icon a {
-  color: #67798E
+  color: #67798e;
 }
 
 .phone-toolbar ul {
