@@ -14,6 +14,33 @@
     position: relative;
   }
 
+  .container2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2rem
+  }
+
+  .mobile-popup {
+    top: 7rem;
+    left: 5rem;
+    width: 78%;
+    padding: 3rem;
+  }
+
+  .mobile-popup p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 5px;
+    margin-top: 0;
+  }
+
+  .pop-buttons {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
   .main-nav-list {
     list-style: none;
     display: flex;
@@ -245,6 +272,13 @@
     column-gap: 1rem;
     width: 80%;
   }
+
+  .mobile-popup {
+    top: 9rem;
+    left: 13rem;
+    width: 78%;
+    padding: 3rem;
+  }
 }
 
 @media (min-width: 950px) {
@@ -254,9 +288,23 @@
     column-gap: 1rem;
     width: 85%;
   }
+
+  .mobile-popup {
+    top: 10rem;
+    left: 14rem;
+    width: 78%;
+    padding: 3rem;
+  }
 }
 
 @media (min-width: 1000px) {
+  .mobile-popup {
+    top: 11rem;
+    left: 15rem;
+    width: 78%;
+    padding: 3rem;
+  }
+
   .my-work h2 {
     padding: 0 2rem 14rem 14rem;
   }
@@ -300,6 +348,17 @@
     margin: 0;
     padding: 0;
     background: #1c1a19;
+  }
+
+  .pop-buttons {
+    margin-top: 2rem;
+  }
+
+  .mobile-popup {
+    top: 10rem;
+    left: 17rem;
+    width: 78%;
+    padding: 3rem;
   }
 
   .my-work h2 {
@@ -363,6 +422,10 @@
   .work-grid-box {
     width: 75%;
   }
+
+  .pop-buttons {
+    margin-top: 15rem;
+  }
 }
 
 @media (min-width: 1538px) {
@@ -370,6 +433,10 @@
     margin: 0 18rem;
     column-gap: 2rem;
     width: 63%;
+  }
+
+  .pop-buttons {
+    margin-top: 20rem;
   }
 
   .about-me-line {
