@@ -19,6 +19,45 @@ body {
   display: none;
 }
 
+.responsive {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #3c3a39;
+  color: white;
+  z-index: 1;
+  list-style: none;
+  padding: 40px;
+}
+
+.responsive a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.main-nav-link2 {
+  border-bottom: 1px solid #6f6c6b;
+}
+
+.close-icon {
+  align-self: flex-end;
+}
+
+.close-icon a {
+  color: #67798e;
+}
+
 .phone-toolbar ul {
   display: flex;
   list-style: none;
@@ -74,6 +113,7 @@ body {
   padding-left: 3rem;
   background: #1c1a19;
   align-items: center;
+  overflow: hidden;
 }
 
 .main-text {
@@ -274,6 +314,7 @@ body {
 
 .fourth-box {
   background-image: url("img/box2.png");
+  background-repeat: no-repeat;
   height: 38.6rem;
 }
 
@@ -336,6 +377,7 @@ body {
 
 .fifth-box {
   background-image: url("img/box3.png");
+  background-repeat: no-repeat;
   height: 38.6rem;
 }
 
@@ -345,6 +387,7 @@ body {
 
 .row-two-box {
   background-image: url("img/box4.png");
+  background-repeat: no-repeat;
 }
 
 .last-work {
@@ -362,6 +405,7 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0 2.4rem;
+  overflow: hidden;
 }
 
 .text-about-me h3 {
