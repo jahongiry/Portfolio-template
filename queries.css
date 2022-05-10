@@ -5,11 +5,11 @@
 
   .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: #3e3c3c;
     height: 7.2rem;
-    padding: 0;
+    padding: 0 10rem;
     width: 100%;
     position: relative;
   }
