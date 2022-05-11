@@ -23,6 +23,7 @@
   .mobile-popup {
     top: 7rem;
     left: 5rem;
+    bottom: 7rem;
     width: 78%;
     padding: 3rem;
   }
@@ -30,8 +31,8 @@
   .mobile-popup p {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 11px;
+    line-height: 18px;
     padding-right: 5px;
     margin-top: 0;
   }
@@ -39,6 +40,14 @@
   .pop-buttons {
     justify-content: flex-start;
     gap: 10px;
+  }
+
+  .pop-button {
+    padding: 4px;
+  }
+
+  .pop-button a {
+    font-size: 11px;
   }
 
   .main-nav-list {
@@ -279,6 +288,20 @@
     width: 78%;
     padding: 3rem;
   }
+
+  .mobile-popup p {
+    font-size: 12px;
+    line-height: 20px;
+    padding-right: 5px;
+  }
+
+  .pop-button {
+    padding: 3px;
+  }
+
+  .pop-button a {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 950px) {
@@ -292,8 +315,23 @@
   .mobile-popup {
     top: 10rem;
     left: 14rem;
+    bottom: 10rem;
     width: 78%;
     padding: 3rem;
+  }
+
+  .mobile-popup p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 5px;
+  }
+
+  .pop-button {
+    padding: 5px;
+  }
+
+  .pop-button a {
+    font-size: 14px;
   }
 }
 
@@ -301,8 +339,23 @@
   .mobile-popup {
     top: 11rem;
     left: 15rem;
+    bottom: 11rem;
     width: 78%;
     padding: 3rem;
+  }
+
+  .mobile-popup p {
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 5px;
+  }
+
+  .pop-button {
+    padding: 5px;
+  }
+
+  .pop-button a {
+    font-size: 16px;
   }
 
   .my-work h2 {
@@ -359,6 +412,24 @@
     left: 17rem;
     width: 78%;
     padding: 3rem;
+  }
+
+  .mobile-popup p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 5px;
+  }
+
+  .pop-button {
+    padding: 7px;
+  }
+
+  .pop-button a {
+    font-size: 18px;
+  }
+
+  .pop-img {
+    width: 95%;
   }
 
   .my-work h2 {
@@ -423,8 +494,8 @@
     width: 75%;
   }
 
-  .pop-buttons {
-    margin-top: 15rem;
+  .pop-img {
+    width: 85%;
   }
 }
 
@@ -435,8 +506,8 @@
     width: 63%;
   }
 
-  .pop-buttons {
-    margin-top: 20rem;
+  .pop-img {
+    width: 75%;
   }
 
   .about-me-line {
