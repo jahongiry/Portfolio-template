@@ -15,8 +15,113 @@ body {
   color: #555;
 }
 
+.blur-add {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.blur-remove {
+  filter: none;
+  -webkit-filter: none;
+}
+
 .header {
   display: none;
+}
+
+.mobile-popup {
+  display: none;
+  position: fixed;
+  top: 2rem;
+  left: 2.5rem;
+  bottom: 2rem;
+  z-index: 99;
+  background-color: white;
+  width: 90%;
+  padding: 16px;
+}
+
+.mobile-popup h3 {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.x-button {
+  color: #67798e;
+  font-size: 25px;
+}
+
+.pop-languages {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 4rem 0 3.4rem 0;
+}
+
+.pop-pr-l {
+  border: 1px solid #dfe1e6;
+  padding: 10px;
+}
+
+.pop-pr-l a {
+  text-decoration: none;
+  color: #3c3a39;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.contaier {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-img {
+  width: 100%;
+}
+
+.mobile-popup p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #344563;
+  margin-top: 3.4rem;
+}
+
+.pop-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-button {
+  background: rgb(255, 107, 0);
+  padding: 12px;
+  margin: 2rem 0;
+}
+
+.pop-button a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.icons-pop {
+  color: white;
+  font-size: 2rem;
+  margin: 2px 5px 0 8px;
 }
 
 .responsive {

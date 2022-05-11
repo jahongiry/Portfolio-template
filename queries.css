@@ -14,6 +14,42 @@
     position: relative;
   }
 
+  .container2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2rem;
+  }
+
+  .mobile-popup {
+    top: 7rem;
+    left: 5rem;
+    bottom: 7rem;
+    width: 78%;
+    padding: 3rem;
+  }
+
+  .mobile-popup p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    padding-right: 5px;
+    margin-top: 0;
+  }
+
+  .pop-buttons {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .pop-button {
+    padding: 4px;
+  }
+
+  .pop-button a {
+    font-size: 11px;
+  }
+
   .main-nav-list {
     list-style: none;
     display: flex;
@@ -245,6 +281,27 @@
     column-gap: 1rem;
     width: 80%;
   }
+
+  .mobile-popup {
+    top: 9rem;
+    left: 13rem;
+    width: 78%;
+    padding: 3rem;
+  }
+
+  .mobile-popup p {
+    font-size: 12px;
+    line-height: 20px;
+    padding-right: 5px;
+  }
+
+  .pop-button {
+    padding: 3px;
+  }
+
+  .pop-button a {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 950px) {
@@ -254,9 +311,53 @@
     column-gap: 1rem;
     width: 85%;
   }
+
+  .mobile-popup {
+    top: 10rem;
+    left: 14rem;
+    bottom: 10rem;
+    width: 78%;
+    padding: 3rem;
+  }
+
+  .mobile-popup p {
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 5px;
+  }
+
+  .pop-button {
+    padding: 5px;
+  }
+
+  .pop-button a {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 1000px) {
+  .mobile-popup {
+    top: 11rem;
+    left: 15rem;
+    bottom: 11rem;
+    width: 78%;
+    padding: 3rem;
+  }
+
+  .mobile-popup p {
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 5px;
+  }
+
+  .pop-button {
+    padding: 5px;
+  }
+
+  .pop-button a {
+    font-size: 16px;
+  }
+
   .my-work h2 {
     padding: 0 2rem 14rem 14rem;
   }
@@ -300,6 +401,35 @@
     margin: 0;
     padding: 0;
     background: #1c1a19;
+  }
+
+  .pop-buttons {
+    margin-top: 2rem;
+  }
+
+  .mobile-popup {
+    top: 10rem;
+    left: 17rem;
+    width: 78%;
+    padding: 3rem;
+  }
+
+  .mobile-popup p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 5px;
+  }
+
+  .pop-button {
+    padding: 7px;
+  }
+
+  .pop-button a {
+    font-size: 18px;
+  }
+
+  .pop-img {
+    width: 95%;
   }
 
   .my-work h2 {
@@ -363,6 +493,10 @@
   .work-grid-box {
     width: 75%;
   }
+
+  .pop-img {
+    width: 85%;
+  }
 }
 
 @media (min-width: 1538px) {
@@ -370,6 +504,10 @@
     margin: 0 18rem;
     column-gap: 2rem;
     width: 63%;
+  }
+
+  .pop-img {
+    width: 75%;
   }
 
   .about-me-line {
