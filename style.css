@@ -688,3 +688,21 @@ body {
   font-size: 2rem;
   padding: 2rem 1.5rem;
 }
+
+.error-message {
+  display: none;
+  color: rgb(235, 74, 74);
+  border-bottom: 1px solid rgb(235, 74, 74);
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.email-error {
+  box-shadow: 0 0 4px #970d0d;
+}
+
+.flex-conainer-last {
+  display: flex;
+  flex-direction: column;
+}

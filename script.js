@@ -202,3 +202,27 @@ mobilePopX.addEventListener('click', () => {
   allBody.classList.remove('blur-add');
   allBody.classList.add('blur-remove');
 });
+
+const email = document.getElementById('email');
+const form = document.getElementById('form');
+const errorMessage = document.querySelector('.error-message');
+
+function checkEmailInput() {
+  const emailValue = email.value.trim();
+  const regExp = /[A-Z]/;
+
+  if (regExp.test(emailValue)) {
+    email.classList.add('email-error');
+    errorMessage.style.display = 'inline-block';
+    return false;
+  }
+  email.classList.remove('email-error');
+  errorMessage.style.display = 'none';
+  return true;
+}
+
+form.addEventListener('submit', (e) => {
+  if (!checkEmailInput()) {
+    e.preventDefault();
+  }
+});

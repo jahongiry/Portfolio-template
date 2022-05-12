@@ -14,6 +14,11 @@
     position: relative;
   }
 
+  .get-in-touch {
+    display: inline-block;
+    margin: auto;
+  }
+
   .container2 {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -266,11 +271,6 @@
 
   #name {
     margin-top: 0;
-  }
-
-  .get-in-touch {
-    display: inline-block;
-    margin: auto;
   }
 }
 

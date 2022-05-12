@@ -221,6 +221,7 @@
           action="https://formspree.io/f/xvolvbqj"
           method="POST"
           class="footer-form"
+          id="form"
         >
           <input
             type="text"
@@ -233,6 +234,7 @@
           <input
             type="email"
             name="email"
+            class="email"
             id="email"
             placeholder="Email adress"
             required
@@ -244,7 +246,12 @@
             placeholder="Hello Mariane. Glad to see you |"
             required
           ></textarea>
+          <div class="flex-conainer-last">
           <button type="submit" class="get-in-touch">Get in touch</button>
+          <div class="error-message">
+            <h6>Please, use lower case letters in email input</h6>
+          </div>
+        </div>
         </form>
       </div>
       <hr class="last-line" />
