@@ -13,9 +13,6 @@ In this project, I set up a "My portfolio" repository.
 - Media Queries
 
 ## Getting Started
-
-node_modules were ignored by .gitignore file
-
 To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
