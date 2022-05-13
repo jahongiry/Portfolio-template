@@ -247,7 +247,7 @@ if (myInfo) {
 
 form.addEventListener('input', () => {
   store();
-})
+});
 
 form.addEventListener('submit', (e) => {
   if (!checkEmailInput()) {
