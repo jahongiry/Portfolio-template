@@ -238,6 +238,12 @@ function store() {
   localStorage.setItem('formObject', JSON.stringify(storageObject));
 }
 
+const myInfo = JSON.parse(localStorage.getItem('formObject'));
+if (myInfo) {
+  firstName.value = myInfo.name;
+  emailStorage.value = myInfo.email;
+  textarea.value = myInfo.textarea;
+}
 
 form.addEventListener('submit', (e) => {
   if (!checkEmailInput()) {
