@@ -221,6 +221,34 @@ function checkEmailInput() {
   return true;
 }
 
+const firstName = document.getElementById('name');
+const emailStorage = document.getElementById('email');
+const textarea = document.getElementById('textarea');
+
+function store() {
+  const firstNameV = document.getElementById('name').value;
+  const emailStorageV = document.getElementById('email').value;
+  const textareaV = document.getElementById('textarea').value;
+
+  const storageObject = {
+    name: firstNameV,
+    email: emailStorageV,
+    textarea: textareaV,
+  };
+  localStorage.setItem('formObject', JSON.stringify(storageObject));
+}
+
+const myInfo = JSON.parse(localStorage.getItem('formObject'));
+if (myInfo) {
+  firstName.value = myInfo.name;
+  emailStorage.value = myInfo.email;
+  textarea.value = myInfo.textarea;
+}
+
+form.addEventListener('input', () => {
+  store();
+});
+
 form.addEventListener('submit', (e) => {
   if (!checkEmailInput()) {
     e.preventDefault();
