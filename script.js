@@ -245,9 +245,12 @@ if (myInfo) {
   textarea.value = myInfo.textarea;
 }
 
+form.addEventListener('input', () => {
+  store();
+})
+
 form.addEventListener('submit', (e) => {
   if (!checkEmailInput()) {
     e.preventDefault();
   }
-  store();
 });
