@@ -12,6 +12,9 @@ In this project, I set up a "My portfolio" repository.
 - CSS Grid
 - Media Queries
 
+## Live version
+https://jahongiry.github.io/Portfolio-template-version/
+
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
