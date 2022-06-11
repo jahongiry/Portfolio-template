@@ -13,7 +13,7 @@ In this project, I set up a "My portfolio" repository.
 - Media Queries
 
 ## Live version
-https://jahongiry.github.io/Portfolio-template-version/
+[https://jahongiry.github.io/Portfolio-template-version/](https://jahongiry.github.io/Portfolio-template/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
